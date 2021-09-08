@@ -8,7 +8,7 @@ media = (nota1+nota2+nota3+nota4+nota4) / 4
 if media < 7:
     print("Recuperação")
 if media < 5:
-    print("Não passou ")
+    print("Não ")
 else:
     print("Passou!")
     print("O aluno %s, possui a media %f", aluno, media)
