@@ -17,7 +17,7 @@ while tentativas <= 7:
         print('Tentativa %d de %d' % (tentativas, chances))
     elif chute == numero_secreto:
         print('PARABÉNS!!!!!', jogador)
-        print('Você acertou com %d tentativcas' % tentativas)
+        print('Você acertou com %d tentativas' % tentativas)
         tentativas = 7
     else:
         print('Você errou, Seu número é maior que o sorteado,'
